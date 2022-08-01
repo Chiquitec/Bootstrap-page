@@ -1,0 +1,79 @@
+.nav-link {
+    color: beige;
+
+}
+
+nav {
+    background-color: tomato;
+}
+
+#sec-bg {
+    background-color: #003459;
+}
+
+#button {
+    background-color: #ffb700;
+    border-radius: 25px;
+    border: none;
+}
+
+#button:hover {
+    color: whitesmoke;
+}
+
+#button-send {
+    background-color: #003459;
+    border: none;
+}
+
+.read-more {
+    background-color: #003459;
+    color: aliceblue;
+}
+
+.read-more:hover {
+    color: aliceblue;
+    transform: scale(1.2);
+}
+
+body::before {
+    content: "";
+    display: block;
+    height: 60px;
+}
+
+#email {
+    background-color: tomato;
+}
+
+#learn {
+    background-color: #003459;
+}
+
+#card-1 {
+    background-color: #ffb700;
+}
+
+#card-2 {
+    background-color: #2a9d8f;
+}
+
+#card-3 {
+    background-color: #ffb700;
+}
+
+footer {
+    padding: 2.5rem 0;
+    background-color: #003459;
+    text-align: center;
+}
+
+footer p {
+    color: whitesmoke;
+}
+
+@media(min-width:768px) {
+    .news-input {
+        width: 50%;
+    }
+}
